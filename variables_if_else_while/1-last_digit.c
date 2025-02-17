@@ -1,3 +1,4 @@
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -5,14 +6,14 @@
 /**
  * main - Entry point
  *
- * Description: This program generates a random number, extracts its last digit,
- * and prints whether it is greater than 5, equal to 0, or less than 6 and not 0.
+ * Description: This program generates a random number, extracts its last digit
+ * and prints whether it is greater than 5 equal to 0 or less than 6 and not 0.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
- int n, last_digit;
+int n, last_digit;
 
 srand(time(0));  /* Seed the random number generator */
 n = rand() - RAND_MAX / 2;  /* Generate a random number */
