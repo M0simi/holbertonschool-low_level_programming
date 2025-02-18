@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-    char letter;
+char letter;
 
-    for (letter = 'a'; letter <= 'z'; letter++)
-    {
-        if (letter != 'q' && letter != 'e') /* Skip 'q' and 'e' */
-            putchar(letter);
-    }
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+if (letter != 'q' && letter != 'e') /* Skip 'q' and 'e' */
+putchar(letter);
+}
 
-    putchar('\n'); /* Print newline at the end */
+putchar('\n'); /* Print newline at the end */
 
-    return (0);
+return (0);
 }
