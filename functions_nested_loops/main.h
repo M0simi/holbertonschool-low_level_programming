@@ -1,8 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _putchar(char c);
+int _putchar(char c); /* to print one character */
 void print_alphabet_x10(void);
-int _islower(int c); /* Make sure this kine is included*/
-int _isalpha(int c); /* New function */
+int _islower(int c); /* islower -3*/
+int _isalpha(int c); /* isalpha -4 */
+int  print_sign(int n); /* print sing -5 */
+
 #endif /* MAIN_H */
