@@ -14,7 +14,7 @@ for (col = 0; col < 10; col++) /* loop for each columen (0 - 9) */
 {
 product = row * col;
 
-if (col !=0) /*Add a comma and a space before each number except the first.*/
+if (col != 0) /*Add a comma and a space before each number except the first.*/
 {
 _putchar(',');
 _putchar(' ');
