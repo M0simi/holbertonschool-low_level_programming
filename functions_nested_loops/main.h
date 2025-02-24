@@ -1,3 +1,4 @@
+
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -9,5 +10,6 @@ int  print_sign(int n); /* print sing -5 */
 int _abs(int);
 int print_last_digit(int n);
 void jack_bauer(void);
+void times_table(void);
 
 #endif /* MAIN_H */
