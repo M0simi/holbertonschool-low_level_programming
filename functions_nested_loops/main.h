@@ -7,5 +7,6 @@ int _islower(int c); /* islower -3*/
 int _isalpha(int c); /* isalpha -4 */
 int  print_sign(int n); /* print sing -5 */
 int _abs(int);
+int print_last_digit(int n);
 
 #endif /* MAIN_H */
