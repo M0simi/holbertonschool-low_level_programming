@@ -15,10 +15,10 @@ int main(void)
 			printf("FizzBuzz");
 		else if (i % 3 == 0) /* if the number is a multiple of 3 */
 			printf("Fizz");
-		else if (i % 5 == 0)
+		else if (i % 5 == 0) /* if number is a multiple of 5 */
 			printf("Buzz");
 		else
-			printf(" % d", i);
+			printf("%d", i);
 
 		if (i != 100) /* print space after every number except the last one */
 			printf(" ");
