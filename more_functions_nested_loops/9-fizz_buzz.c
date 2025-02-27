@@ -12,7 +12,7 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0) /* if the number is a multiple of 3 and 5 */
-			printf("fizzBuzz");
+			printf("FizzBuzz");
 		else if (i % 3 == 0) /* if the number is a multiple of 3 */
 			printf("Fizz");
 		else if (i % 5 == 0)
