@@ -7,7 +7,7 @@ int main(void)
 	int len;
 
 
-	str = "My first strlen!";
+	str = "My first strlen!!!";
 	len = _strlen(str);
 	printf("%d\n", len); /* should print: 16 */
 	return (0);
