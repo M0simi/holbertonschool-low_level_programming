@@ -14,10 +14,10 @@ void print_rev(char *s)
 	}
 
 	/* reverse printing */
-	while (length >0)
+	while (length > 0)
 	{
 		length--; /* Decrease length first to get to last character */
 		_putchar(s[length]); /* print the currnt letter */
 	}
-	_putchar('\n'); 
+	_putchar('\n');
 }
