@@ -12,5 +12,5 @@ void _puts(char *str)
 		_putchar(*str); /* print the current letter */
 		str++; /* move to the next letter */
 	}
-	_putchar('\n'); 
+	_putchar('\n');
 }
