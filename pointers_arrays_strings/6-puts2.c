@@ -6,13 +6,13 @@
  */
 void puts2(char *str)
 {
-	int i = 0;
+	int i;
 
-	while (str[i] != '\0') /* a loop going throu all letters */
+	for (i = 0; str[i] != '\0'; i++) /* a loop going throu all letters */
 	{
-		_putchar(str[i]); /* print the current letter */
-		i += 2; /* move to the next letter after the current */
+	if (i % 2 == 0) /* print the current letter */
+	_putchar(str[i]); /* move to the next letter after the current */
 	}
 
-	_putchar('\n'); 
+	_putchar('\n');
 }
