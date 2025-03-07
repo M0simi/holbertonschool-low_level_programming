@@ -13,14 +13,15 @@ char *_strpbrk(char *s, char *accept)
 	while (*s) /* move through the string s */
 	{
 		char *a = accept;
+
 		while (*a) /* check each character in accept */
 
 		{
 			if (*s == *a) /* if a match is found */
-				return s; /* return a pointer to this characters in s */
+				return (s); /* return a pointer to this characters in s */
 			a++; /* move to the next character in accept */
 		}
 		s++; /* move to the next character in s */
 	}
-return NULL;
+return (NULL);
 }
