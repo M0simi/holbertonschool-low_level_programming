@@ -10,13 +10,13 @@
  */
 void print_diagsums(int *a, int size)
 {
-    int i, primary_sum = 0, secondary_sum = 0;
+	int i, primary_sum = 0, secondary_sum = 0;
 
-    for (i = 0; i < size; i++)
-    {
-        primary_sum += a[i * size + i]; /* Primary diagonal */
-        secondary_sum += a[i * size + (size - 1 - i)]; /* Secondary diagonal */
-    }
+for (i = 0; i < size; i++)
+{
+primary_sum += a[i * size + i]; /* Primary diagonal */
+secondary_sum += a[i * size + (size - 1 - i)]; /* Secondary diagonal */
+}
 
-    printf("%d, %d\n", primary_sum, secondary_sum);
+printf("%d, %d\n", primary_sum, secondary_sum);
 }
