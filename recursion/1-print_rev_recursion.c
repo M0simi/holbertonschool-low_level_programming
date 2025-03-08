@@ -8,9 +8,9 @@
  */
 void _print_rev_recursion(char *s)
 {
-    if (*s == '\0') /* Base case: Stop when reaching the end of the string */
-        return;
+if (*s == '\0') /* Base case: Stop when reaching the end of the string */
+return;
 
-    _print_rev_recursion(s + 1); /* Recursive call to move to the next character */
-    _putchar(*s); /* Print the character after the recursive call */
+_print_rev_recursion(s + 1); /* Recursive call to move to the next character */
+_putchar(*s); /* Print the character after the recursive call */
 }
