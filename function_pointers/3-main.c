@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "calc.h"
+#include "3-calc.h"
 
 /**
  * main - Perform simple operations based on user input.
