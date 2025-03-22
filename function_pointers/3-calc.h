@@ -5,8 +5,8 @@
 /**
  * struct op - Struct op
  *
- * @op: The operator
- * @f: The function associated
+ * @op: The operator symbol (+, -, *, /, %)
+ * @f: The function associated with the operator
  */
 typedef struct op
 {
