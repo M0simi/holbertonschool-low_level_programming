@@ -26,7 +26,7 @@ printf("(nil)");
 else
 printf("%s", str);
 
-        /* print the sprent if not NULL or the lsdt one  */
+/* print the sprent if not NULL or the lsdt one  */
 if (separator != NULL && i < n - 1)
 printf("%s", separator);
 }
