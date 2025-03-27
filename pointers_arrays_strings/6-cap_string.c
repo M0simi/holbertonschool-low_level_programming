@@ -23,7 +23,7 @@ for (j = 0; separators[j] != '\0'; j++)
 {
 if (str[i] == separators[j] && (str[i + 1] >= 'a' && str[i + 1] <= 'z'))
 {
-str[i + 1] = str[i + 1] - ('a' - 'A'); /* replace the charcter to the uppercase± */
+str[i + 1] = str[i + 1] - ('a' - 'A'); /* replacethecharctertothe uppercase± */
 break;
 }
 }
