@@ -14,13 +14,13 @@ size_t count = 0;
     /* Loop through the linked list */
 while (h)
 {
-        /* Print the string and its length, handle NULL case */
+/* Print the string and its length, handle NULL case */
 if (h->str)
 printf("[%u] %s\n", h->len, h->str);
 else
 printf("[0] (nil)\n");
 
-        /* Move to the next node */
+/* Move to the next node */
 h = h->next;
 count++;
 }
