@@ -18,12 +18,10 @@ unsigned int len = 0;
 /* Calculate the length of the string */
 while (str[len])
 len++;
-
 /* Allocate memory for the new node */
 new_node = malloc(sizeof(list_t));
 if (new_node == NULL)
 return (NULL);
-
 /* Duplicate the string */
 new_str = strdup(str);
 if (new_str == NULL)
@@ -31,12 +29,10 @@ if (new_str == NULL)
 free(new_node);
 return (NULL);
 }
-
 /* Initialize the new node */
 new_node->str = new_str;
 new_node->len = len;
 new_node->next = NULL;
-
 /* If the list is empty, set the new node as the head */
 if (*head == NULL)
 {
