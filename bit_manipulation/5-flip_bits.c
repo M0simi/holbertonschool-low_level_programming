@@ -20,5 +20,5 @@ count += xor_result & 1;/* If the last bit is 1, increment count */
 xor_result >>= 1;/* Shift right by 1 to check the next bit */
 }
 
-return count;
+return (count);
 }
