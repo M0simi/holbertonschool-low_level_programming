@@ -4,7 +4,8 @@
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-
+#include <math.h>
+#include <string.h>
 /**
  * open_source - Opens the source file for reading.
  * @file: Name of the source file.
